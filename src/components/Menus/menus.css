@@ -1,0 +1,46 @@
+
+.menus {
+    width: 300px;
+    height: 100vh;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease;
+}
+
+.active {
+    right: 0
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    color: beige;
+    font-weight: 300;
+    width: 60%;
+
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li:hover {
+    font-weight: 500;
+    font-style: italic;
+}
+
+li a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+
+}

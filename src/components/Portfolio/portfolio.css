@@ -1,3 +1,5 @@
 .portfolio {
     background-color: lawngreen;
+    display: flex;
 }
+
