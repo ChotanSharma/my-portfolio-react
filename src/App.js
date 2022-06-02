@@ -7,6 +7,7 @@ import Menus from "./components/Menus/Menus";
 import "./app.css";
 import { Menu } from "@mui/material";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
