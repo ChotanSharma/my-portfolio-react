@@ -8,7 +8,7 @@ function Nav ({menusOpen, setMenusOpen})  {
         <div className= {"nav " + (menusOpen && "active")}>
             <div className='wrapper'>
                 <div className='left'>
-                    <a href='#intro' className='logo'>Chotan Sharma</a>
+                    <a href='#intro' className='logo'>CS</a>
                     <div className='itemContainer'>
                         <PersonIcon className='icon'></PersonIcon>
                         <span>616-304-0735</span>

@@ -3,8 +3,8 @@ import "./portfolio.css";
 import Carousel from 'react-bootstrap/Carousel';
 function Portfolio ()  {
     return (
-
-        <div class="container">
+        <div className='portfolio' id='portfolio'>
+            <div class="port-container">
 					<header>
 						<h1>Portfolio</h1>
 						<p>I really enjoyed working in these projects. They had been amazing opportunities to hone my skills as a full stack developer.</p>
@@ -48,6 +48,7 @@ function Portfolio ()  {
             </Carousel>				
         </div>
     </div>                   
+ </div>
  )
     
 }

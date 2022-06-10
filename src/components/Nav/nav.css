@@ -21,6 +21,7 @@
 .left {
     display: flex;
     align-items: center;
+    margin-right: 100px;
 }
 
 .logo {
@@ -43,8 +44,13 @@
 }
 
 .leftSpan {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+}
+
+.right {
+    margin-left: 900px;
+    align-items: flex-end;
 }
 
 .hamburger {
