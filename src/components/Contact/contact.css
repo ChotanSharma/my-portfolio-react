@@ -35,7 +35,7 @@
 .c-info-item {
     display: flex;
     align-items: center;
-    margin: 50px 10px;
+    margin: 30px 10px;
     font-weight: 300;
 }
 .c-icon {
@@ -45,7 +45,7 @@
 }
 
 .c-descript {
-    font-weight: 200;
+    font-weight: 400;
 }
 form {
     margin-top: 20px;
@@ -76,4 +76,11 @@ button {
     border-radius: 10px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.c-span {
+    font-weight: 500;
+    color: blue;
+    font-size: 30px;
+    font: bold;
 }

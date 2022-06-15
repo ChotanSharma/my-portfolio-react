@@ -53,7 +53,7 @@ function Contact ()  {
                 </div>
                 <div className='c-right'>
                     <p className='c-descript'>
-                        <b>What's your story?</b>Get in touch. I'm alwaysopen to accept a challenge if the right one comes along me.
+                        <span className='c-span'>What's your story?</span><br></br>Get in touch. I'm always open to accept a challenge if the right one comes along me.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type='text' placeholder='Name' name='user_name'></input>
