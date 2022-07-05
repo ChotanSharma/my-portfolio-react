@@ -23,7 +23,6 @@ function Contact ()  {
     }
     return (
         <div className="contact" id='contact'>
-            <div className='contact-bg'></div>
             <div className='c-wrapper'>
                 <div className='c-left'>
                     <h1 className='c-title'>Let's discuss our projects and ideas:</h1>
