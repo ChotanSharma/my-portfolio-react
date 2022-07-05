@@ -18,14 +18,14 @@ function App() {
       <Menus menusOpen={menusOpen} setMenusOpen={setMenusOpen}></Menus>
       <div className="sections">
           <Intro></Intro>
+        <div className="section-test">
+          <Testimonials></Testimonials>
+        </div>
         <div className="section-port">
           <Portfolio></Portfolio>
         </div>
         <div className="section-con">
           <Contact></Contact>
-        </div>
-        <div className="section-test">
-          <Testimonials></Testimonials>
         </div>
       </div>
     </div>

@@ -31,6 +31,6 @@
 .section-test {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: lightcoral;
+    background-color: rgb(46, 28, 28);
     scroll-snap-align: start;
 }

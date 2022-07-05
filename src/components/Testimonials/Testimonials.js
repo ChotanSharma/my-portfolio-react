@@ -19,9 +19,19 @@ function Testimonials ()  {
                     </div>
                 </div>
                 <div className='t-right'>
-                    <p className='t-descript'>
-                        <span className='t-span'>What's your story?</span><br></br>Get in touch. I'm always open to accept a challenge if the right one comes along me.
-                    </p>
+                    <h1 className='t-title'>My skills:</h1>
+                    <div className='skills'>
+                    <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Node</li>
+                            <li>Git</li>
+                            <li>MERN</li>
+                        </ul>
+                    </div>
+                       
                 </div>
             </div>
         </div>
