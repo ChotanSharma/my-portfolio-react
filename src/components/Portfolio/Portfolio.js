@@ -6,12 +6,10 @@ function Portfolio ()  {
         <div className='portfolio' id='portfolio'>
             <div class="port-container">
 					<header>
-						<h1>Portfolio</h1>
-						<p>I really enjoyed working in these projects. They had been amazing opportunities to hone my skills as a full stack developer.</p>
+						<h2 className='port-text'>Here're some of my projects:</h2>
+						<h3 className='port-text-p'>They had been amazing opportunities to hone my skills as a full stack developer.</h3>
 					</header>
-					<div class="row">
-                        <h2>Here're some of my projects:</h2>
-						<Carousel variant="dark">
+			<Carousel variant="dark">
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -19,8 +17,8 @@ function Portfolio ()  {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3><a href="https://hidden-spire-39352.herokuapp.com/" target="_blank">The Guest List</a></h3>
+                    <p>The Guest List is a full stack application that allows a user to signup, login, and add guests to their wedding guest list.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -30,8 +28,8 @@ function Portfolio ()  {
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3><a href="https://8bitgaming.github.io/random-travel-generator/" target="_blank">Random Travel Generator</a></h3>
+                    <p className='p-projectTwo'>This application is very useful for travel enthusiasts. By clicking the button, the users can explore various cities of the world with all the necessary information like weather data, city details, time zone, population etc.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,12 +39,11 @@ function Portfolio ()  {
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3><a href="https://chotansharma.github.io/run-buddy/" target="_blank">Run Buddy</a></h3>
+                    <p>This one designed as a health fitness application for signing up members.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>				
-        </div>
     </div>                   
  </div>
  )

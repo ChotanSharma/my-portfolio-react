@@ -14,7 +14,8 @@ function Testimonials ()  {
                             recently graduated from MSU Web Development Bootcamp.<br></br>
                             I'm now looking for a meaningful career
                             in tech to grow myself as a skilled software engineer.<br></br>
-                            I'm dedicated, hard-working and passionate about learning new stuffs in different fields of computer science.</p>
+                            I'm dedicated, hard-working and passionate about learning new stuffs in different fields of computer science.
+                            <br></br>I love reading poetry and fictions and watching movies and documentaries.</p>
                         </div>
                     </div>
                 </div>
@@ -24,11 +25,14 @@ function Testimonials ()  {
                     <ul>
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>Bootstrap</li>
                             <li>JavaScript</li>
                             <li>SQL</li>
+                            <li>MongoDB</li>
                             <li>Node</li>
                             <li>Git</li>
                             <li>MERN</li>
+                            <li>Heroku</li>
                         </ul>
                     </div>
                        

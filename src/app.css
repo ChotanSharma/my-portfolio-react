@@ -24,7 +24,7 @@
 .section-con {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: lawngreen;
+    background-color: whitesmoke;
     scroll-snap-align: start;
 }
 
