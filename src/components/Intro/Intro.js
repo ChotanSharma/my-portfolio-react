@@ -11,13 +11,15 @@ function Intro ()  {
                 </div>
             </div>
             <div className='intro-right'>
+                <div className='intro-wrapper'>
                     <h2>Hi There, I'm </h2>
                     <h1>Chotan Sharma</h1>
                     <h3>Full Stack <span>Web Developer</span></h3>
-            </div>
-            <a href='#portfolio'>
+                </div>
+                <a href='#portfolio'>
                     <ArrowDownwardIcon className='arrow'></ArrowDownwardIcon>
-            </a>
+                </a>
+            </div>
         </div>
     )
     
