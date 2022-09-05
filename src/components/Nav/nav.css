@@ -74,3 +74,159 @@
     color: whitesmoke;
 
 }
+
+
+@media screen and (max-width: 1400px){
+
+    .nav {
+        width: 100%;
+        height: 50px;
+    }
+
+    .wrapper {
+        padding: 5px 15px;
+    }
+    .left {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .logo {
+        font-size: 20px;
+        font-weight: 400;
+        margin-right: 20px;
+    }
+    .itemContainer {
+        margin-right: 20px;
+    }
+
+    .icon {
+        font-size: 5px;
+        margin-right: 2px;
+    }
+    
+    .leftSpan {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+    .right {
+        margin-left: 250px;
+    }
+    
+    .hamburger {
+        width: 16px;
+        height: 15px;
+        
+    }
+    
+    .line1, .line2, .line3 {
+        width: 100%;
+        height: 1px;
+    }
+    .cellNo {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .nav {
+        width: 100%;
+        height: 40px;
+    }
+
+    .wrapper {
+        padding: 4px 12px;
+    }
+    .left {
+        margin-right: 8px;
+    }
+    .logo {
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 15px;
+    }
+    .itemContainer {
+        margin-right: 15px;
+    }
+
+    .icon {
+        font-size: 3px;
+        margin-right: 1px;
+    }
+    
+    .leftSpan {
+        font-size: 10px;
+        font-weight: 200;
+    }
+    
+    .right {
+        margin-left: 200px;
+    }
+    
+    .hamburger {
+        width: 16px;
+        height: 15px;
+        
+    }
+    
+    .line1, .line2, .line3 {
+        width: 100%;
+        height: 1px;
+    }
+    .cellNo {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .nav {
+        width: 100%;
+        height: 32px;
+    }
+
+    .wrapper {
+        padding: 4px 10px;
+    }
+    .left {
+        margin-right: 5px;
+    }
+    .logo {
+        font-size: 17px;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+    .itemContainer {
+        margin-right: 10px;
+    }
+
+    .icon {
+        font-size: 2px;
+        margin-right: 0px;
+    }
+    
+    .leftSpan {
+        font-size: 8px;
+        font-weight: 200;
+    }
+    
+    .right {
+        margin-left: 100px;
+    }
+    
+    .hamburger {
+        width: 15px;
+        height: 12px;
+        
+    }
+    
+    .line1, .line2, .line3 {
+        width: 100%;
+        height: 0.5px;
+    }
+    .cellNo {
+        font-size: 8px;
+    }
+}

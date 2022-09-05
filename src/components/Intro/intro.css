@@ -32,9 +32,13 @@ img {
 .intro-right {
     flex: 0.5;
     position: relative;
+}
+
+.intro-wrapper {
     height: 60%;
     width: 100%;
     padding-left: 50px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -70,22 +74,19 @@ h3 {
 @media screen and (max-width: 1400px) {
     .intro {
         flex-wrap: wrap;
-        
-    }  
-    .intro-left {
-        flex: none;
-        position: absolute;
     }
-    .intro-right {
-        position: relative;
-       flex: none;
+    .intro-left {
+        flex: 0;
+        position: static;
     }
 
-    .imageContainer {
-        width: 650px;
-        height: 400px;
-        border-radius: 20%;
-        float: none;
+    .intro-right {
+        flex: 1.5;
+        position: static;
+    }
+
+    .intro-wrapper {
+        flex-wrap: wrap;
     }
     
     

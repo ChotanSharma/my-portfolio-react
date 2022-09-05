@@ -11,7 +11,7 @@ function Nav ({menusOpen, setMenusOpen})  {
                     <a href='#intro' className='logo'>CS</a>
                     <div className='itemContainer'>
                         <PersonIcon className='icon'></PersonIcon>
-                        <span>616-304-0735</span>
+                        <span className='cellNo'>616-304-0735</span>
                     </div>
                     <div className='itemContainer'>
                         <EmailIcon className='icon'></EmailIcon>
